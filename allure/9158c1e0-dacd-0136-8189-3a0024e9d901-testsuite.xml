@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1544022514937" stop="1544022518396">
+  <name>Scenarios for the setting page</name>
+  <title>Scenarios for the setting page</title>
+  <test-cases>
+    <test-case start="1544022516811" stop="1544022516983" status="broken">
+      <name>I navigate to settings page: marija+teststaging1@memory.ai | password</name>
+      <title>I navigate to settings page: marija+teststaging1@memory.ai | password</title>
+      <failure>
+        <message/>
+        <stack-trace/>
+      </failure>
+      <steps>
+        <step start="1544022516812" stop="1544022516813" status="broken">
+          <name>I open Timely app</name>
+          <title>I open Timely app</title>
+          <attachments/>
+        </step>
+        <step start="1544022516816" stop="1544022516817" status="canceled">
+          <name>I enter "marija+teststaging1@memory.ai" and "password" and login</name>
+          <title>I enter "marija+teststaging1@memory.ai" and "password" and login</title>
+          <attachments/>
+        </step>
+        <step start="1544022516817" stop="1544022516817" status="canceled">
+          <name>I click on setting button</name>
+          <title>I click on setting button</title>
+          <attachments/>
+        </step>
+        <step start="1544022516817" stop="1544022516817" status="canceled">
+          <name>I navigate to the settings page</name>
+          <title>I navigate to the settings page</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70358543887980"/>
+        <label name="host" value="Marijas-MacBook-Pro.local"/>
+        <label name="feature" value="Scenarios for the setting page"/>
+        <label name="story" value="I navigate to settings page: marija+teststaging1@memory.ai | password"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1544022518214" stop="1544022518395" status="broken">
+      <name>I change the email of the logged in user: marija+teststaging@memory.ai</name>
+      <title>I change the email of the logged in user: marija+teststaging@memory.ai</title>
+      <failure>
+        <message/>
+        <stack-trace/>
+      </failure>
+      <steps>
+        <step start="1544022518216" stop="1544022518216" status="broken">
+          <name>I opened the Profile page in settings</name>
+          <title>I opened the Profile page in settings</title>
+          <attachments/>
+        </step>
+        <step start="1544022518220" stop="1544022518220" status="canceled">
+          <name>I enter the correct "marija+teststaging@memory.ai" into the email field</name>
+          <title>I enter the correct "marija+teststaging@memory.ai" into the email field</title>
+          <attachments/>
+        </step>
+        <step start="1544022518220" stop="1544022518220" status="broken">
+          <name>I click on Update User button</name>
+          <title>I click on Update User button</title>
+          <attachments/>
+        </step>
+        <step start="1544022518221" stop="1544022518221" status="canceled">
+          <name>Successfully updated profile should be displayed on the screen</name>
+          <title>Successfully updated profile should be displayed on the screen</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70358543887980"/>
+        <label name="host" value="Marijas-MacBook-Pro.local"/>
+        <label name="feature" value="Scenarios for the setting page"/>
+        <label name="story" value="I change the email of the logged in user: marija+teststaging@memory.ai"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70358543887980"/>
+    <label name="host" value="Marijas-MacBook-Pro.local"/>
+  </labels>
+</ns2:test-suite>
