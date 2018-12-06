@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem 'cucumber', '2.0.2'
 gem 'rspec', '3.4.0'
-gem 'ffi', '1.3.1'
+gem 'ffi', '1.9.24'
 gem 'watir-webdriver'
 gem 'watir'
 gem 'selenium-webdriver'
