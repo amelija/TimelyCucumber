@@ -10,12 +10,6 @@ class Login
     @login_btn = @browser.element(xpath: "//input[@class='btn btn-default btn-success']")
   end
 
-  def wait_for_page_to_load
-    sleep(5)
-    wait = Selenium::WebDriver::Wait.new(timeout: 60)
-    wait.until { @browser.execute_script('return document.readyState').to_s == 'complete' } && wait.until { @browser.execute_script('return window.openHTTPs').to_i.zero? }
-  end
-
   def open_url
     @browser.goto("http://app.timelyapp.local:3002/login")
   end

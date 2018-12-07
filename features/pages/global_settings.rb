@@ -15,16 +15,6 @@ class GlobalSettings
 
   end
 
-  def wait_for_page_to_load
-    sleep(5)
-    wait = Selenium::WebDriver::Wait.new(timeout: 60)
-    wait.until do
-      @browser.execute_script('return document.readyState').to_s == 'complete'
-    end && wait.until do
-      @browser.execute_script('return window.openHTTPs').to_i.zero?
-    end
-  end
-
   def change_starting_week_day
     @week_starts_dropdown.select('1')
   end
